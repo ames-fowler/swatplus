@@ -87,6 +87,10 @@
       character(len=1) :: action = ""      !         |
       character(len=40) :: lu_prev = ""    !         |
 
+      
+      print*, "Hello world this is my first FORTRAN code snippet!!!"
+      stop !TODO drop this out
+      
       do iac = 1, d_tbl%acts
         action = "n"
         do ial = 1, d_tbl%alts
